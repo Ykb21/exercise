@@ -1,5 +1,6 @@
 function getArrayStats(arr:Array<Number>) {
     let lowest=arr 
-    return lowest
+    let highest=arr
+    return { lowest, highest }
 }
 export default getArrayStats
